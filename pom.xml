@@ -106,6 +106,8 @@
   </dependencies>
 
   <build>
+    <finalName>KiKiddos</finalName>
+
     <pluginManagement>
       <plugins>
         <plugin>
