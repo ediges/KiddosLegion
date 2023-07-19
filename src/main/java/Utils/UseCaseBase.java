@@ -13,7 +13,7 @@ public class UseCaseBase {
     @BeforeAll
     public static void setUpMain() {
         basePage = new BasePage();
-        webDriver = SharedDriver.getWebDriver(SharedDriver.Browser.IE);
+        webDriver = SharedDriver.getWebDriver(SharedDriver.Browser.CHROME);
         basePage.setWebDriver(webDriver);
     }
 
