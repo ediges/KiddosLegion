@@ -39,7 +39,7 @@ public class SharedDriver {
                 break;
             case EDGE:
                 WebDriverManager.edgedriver().setup();
-                webDriver = new EdgeDriver(options);
+                webDriver = new EdgeDriver();
                 break;
         }
         webDriver.manage().window().maximize();
