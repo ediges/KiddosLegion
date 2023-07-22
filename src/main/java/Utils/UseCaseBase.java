@@ -1,4 +1,4 @@
-DGEpackage Utils;
+package Utils;
 
 import Pages.BasePage;
 import Utils.SharedDriver;
