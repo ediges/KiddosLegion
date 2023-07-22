@@ -1,4 +1,4 @@
-package Utils;
+DGEpackage Utils;
 
 import Pages.BasePage;
 import Utils.SharedDriver;
@@ -13,7 +13,7 @@ public class UseCaseBase {
     @BeforeAll
     public static void setUpMain() {
         basePage = new BasePage();
-        webDriver = SharedDriver.getWebDriver(SharedDriver.Browser.FIREFOX);
+        webDriver = SharedDriver.getWebDriver(SharedDriver.Browser.EDGE);
         basePage.setWebDriver(webDriver);
     }
 
