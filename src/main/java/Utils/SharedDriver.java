@@ -15,7 +15,8 @@ public class SharedDriver {
     public enum Browser{
         CHROME,
         FIREFOX,
-        IE
+        IE,
+        EDGE
     }
     protected static WebDriver getWebDriver(Browser browser) {
         switch (browser){
