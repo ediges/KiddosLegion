@@ -36,6 +36,10 @@ public class SharedDriver {
                 WebDriverManager.iedriver().setup();
                 webDriver = new InternetExplorerDriver();
                 break;
+            case EDGE:
+                WebDriverManager.edgedriver().setup();
+                webDriver = new EdgeDriver(options);
+                break;
         }
         webDriver.manage().window().maximize();
         webDriver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
